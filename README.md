@@ -155,12 +155,19 @@ cd machine-learning-regression-models
 pip install -r requirements.txt
 ```
 
-3. Download the datasets and place them in the `input/` directory:
-   - linear_regression_dataset.csv
-   - multiple_linear_regression_dataset.csv
-   - polynomialregression.csv
-   - decisiontreeregressiondataset.csv
-   - randomforestregressiondataset.csv
+3. **Datasets:**
+   
+   All datasets are included in the `input/` directory. You're ready to go! 🚀
+```
+   input/
+   ├── linear_regression_dataset.csv
+   ├── multiple_linear_regression_dataset.csv
+   ├── polynomialregression.csv
+   ├── decisiontreeregressiondataset.csv
+   └── randomforestregressiondataset.csv
+```
+   
+   *Alternatively, view the interactive notebook with datasets on [Kaggle](https://www.kaggle.com/code/dandrandandran2093/machine-learning-regression-models).*
 
 ## Usage
 
