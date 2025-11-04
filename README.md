@@ -203,7 +203,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-### On Kaggle (Recommended)
+### On Kaggle (Recommended) ⭐
 
 Simply open the [Kaggle notebook](https://www.kaggle.com/code/dandrandandran2093/machine-learning-regression-models) and run the cells. All dependencies and datasets are pre-configured!
 
