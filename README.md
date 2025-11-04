@@ -417,7 +417,7 @@ This project is licensed under the Apache License 2.0 - see the LICENSE file for
 ## References
 
 ### Course
-- **Udemy**: [MACHINE LEARNING by DATAI TEAM](https://www.udemy.com/course/machine-learning-egitimi/)
+- **Udemy**: MACHINE LEARNING by DATAI TEAM
 
 ### Documentation
 - [Scikit-learn Documentation](https://scikit-learn.org/stable/documentation.html)
@@ -433,7 +433,7 @@ This project is licensed under the Apache License 2.0 - see the LICENSE file for
 - [Random Forest](https://scikit-learn.org/stable/modules/ensemble.html#forests-of-randomized-trees)
 - [Model Evaluation Metrics](https://scikit-learn.org/stable/modules/model_evaluation.html)
 
-### Related Projects
+### Related Project
 - 🎯 [Machine Learning Classification Models](https://www.kaggle.com/code/dandrandandran2093/machine-learning-classifications-models)
 
 ## Acknowledgments
