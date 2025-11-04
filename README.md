@@ -11,6 +11,12 @@
 
 This repository provides a comprehensive tutorial on machine learning regression techniques using Python. The project demonstrates 5 essential regression algorithms through practical examples with detailed mathematical explanations, interactive visualizations using Plotly, and model evaluation metrics. Each model is explained with real-world datasets to showcase their unique strengths and use cases.
 
+## 🎮 Interactive Demo
+
+**👉 [Run the Interactive Notebook on Kaggle](https://www.kaggle.com/code/dandrandandran2093/machine-learning-regression-models)**
+
+*For the best experience with interactive Plotly visualizations and pre-configured datasets, use the Kaggle notebook above. All models are ready to run with visual explanations!*
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -143,12 +149,30 @@ The tutorial covers 5 comprehensive regression techniques:
 - More robust to outliers
 - Handles feature interactions automatically
 
+## Requirements
+
+```
+numpy>=1.21.0
+pandas>=1.3.0
+scikit-learn>=1.0.0
+plotly>=5.0.0
+jupyter>=1.0.0
+```
+
 ## Installation
+
+### Option 1: Use Kaggle (Recommended) ⭐
+
+The easiest way to explore this tutorial is on Kaggle where everything is pre-configured:
+
+👉 **[Open Interactive Notebook on Kaggle](https://www.kaggle.com/code/dandrandandran2093/machine-learning-regression-models)**
+
+### Option 2: Run Locally
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/sekertutku/machine-learning-regression-models.git
-cd machine-learning-regression-models
+git clone https://github.com/sekertutku/Machine-Learning---Regression-Models.git
+cd Machine-Learning---Regression-Models
 ```
 
 2. Install required packages:
@@ -158,21 +182,34 @@ pip install -r requirements.txt
 
 3. **Datasets:**
    
-   ✨ All datasets are included in the `input/` directory. Just clone and run!
-```
+   ✨ All datasets are included in the `input/` directory for reference:
+   ```
    input/
    ├── linear_regression_dataset.csv
    ├── multiple_linear_regression_dataset.csv
    ├── polynomialregression.csv
-   ├── decisiontreere­gressiondataset.csv
+   ├── decisiontreegressiondataset.csv
    └── randomforestregressiondataset.csv
-```
+   ```
    
-   *Alternatively, view the interactive notebook on [Kaggle](https://www.kaggle.com/code/dandrandandran2093/machine-learning-regression-models).*
+   **Note:** The code uses Kaggle-specific paths (`/kaggle/input/...`). To run locally, update the dataset paths in the code from:
+   ```python
+   df = pd.read_csv(r"/kaggle/input/dataset-name/file.csv")
+   ```
+   to:
+   ```python
+   df = pd.read_csv("input/file.csv")
+   ```
 
 ## Usage
 
-### Running the Complete Tutorial
+### On Kaggle (Recommended)
+
+Simply open the [Kaggle notebook](https://www.kaggle.com/code/dandrandandran2093/machine-learning-regression-models) and run the cells. All dependencies and datasets are pre-configured!
+
+### Locally
+
+#### Running the Complete Tutorial
 
 Execute the main script to run all regression models:
 
@@ -180,7 +217,7 @@ Execute the main script to run all regression models:
 python machine-learning-regression-models.py
 ```
 
-### Running in Jupyter Notebook
+#### Running in Jupyter Notebook
 
 For interactive exploration:
 
@@ -362,13 +399,6 @@ Where:
 - Ignoring outliers in the data
 - Using wrong model for data pattern
 
-## 🎮 Interactive Demo
-
-Experience the full interactive visualizations on Kaggle:  
-👉 [Try Interactive Machine Learning Tutorial](https://www.kaggle.com/code/dandrandandran2093/machine-learning-regression-models)
-
-*Note: Plotly's interactive features (hover, zoom, pan) work best in Kaggle's notebook environment.*
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss proposed modifications.
@@ -387,16 +417,24 @@ This project is licensed under the Apache License 2.0 - see the LICENSE file for
 ## References
 
 ### Course
-- **Udemy**: MACHINE LEARNING by DATAI TEAM
+- **Udemy**: [MACHINE LEARNING by DATAI TEAM](https://www.udemy.com/course/machine-learning-egitimi/)
 
 ### Documentation
-- [Scikit-learn Documentation](https://scikit-learn.org/)
+- [Scikit-learn Documentation](https://scikit-learn.org/stable/documentation.html)
+- [Scikit-learn User Guide](https://scikit-learn.org/stable/user_guide.html)
 - [Plotly Python Documentation](https://plotly.com/python/)
 - [NumPy Documentation](https://numpy.org/doc/)
 - [Pandas Documentation](https://pandas.pydata.org/docs/)
 
-### Related Project
-- 🎯 [Classification Models Tutorial](https://www.kaggle.com/code/dandrandandran2093/machine-learning-classifications-models)
+### Algorithms & Theory
+- [Linear Regression - Scikit-learn](https://scikit-learn.org/stable/modules/linear_model.html#ordinary-least-squares)
+- [Polynomial Features](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.PolynomialFeatures.html)
+- [Decision Trees](https://scikit-learn.org/stable/modules/tree.html)
+- [Random Forest](https://scikit-learn.org/stable/modules/ensemble.html#forests-of-randomized-trees)
+- [Model Evaluation Metrics](https://scikit-learn.org/stable/modules/model_evaluation.html)
+
+### Related Projects
+- 🎯 [Machine Learning Classification Models](https://www.kaggle.com/code/dandrandandran2093/machine-learning-classifications-models)
 
 ## Acknowledgments
 
