@@ -158,7 +158,7 @@ scikit-learn >= 1.0.0
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/machine-learning-regression-models.git
+git clone https://github.com/sekertutku/machine-learning-regression-models.git
 cd machine-learning-regression-models
 ```
 
@@ -399,9 +399,8 @@ This project is licensed under the Apache License 2.0 - see the LICENSE file for
 - [NumPy Documentation](https://numpy.org/doc/)
 - [Pandas Documentation](https://pandas.pydata.org/docs/)
 
-### Related Projects
+### Related Project
 - 🎯 [Classification Models Tutorial](https://www.kaggle.com/code/dandrandandran2093/machine-learning-classifications-models)
-- 📊 [Data Visualization with Plotly](https://github.com/sekertutku/plotly-tutorial)
 
 ## Acknowledgments
 
