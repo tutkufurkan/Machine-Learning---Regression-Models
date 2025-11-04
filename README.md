@@ -142,18 +142,6 @@ The tutorial covers 5 comprehensive regression techniques:
 - More robust to outliers
 - Handles feature interactions automatically
 
-## Requirements
-
-```
-python >= 3.x
-numpy >= 1.21.0
-pandas >= 1.3.0
-matplotlib >= 3.4.0
-plotly >= 5.0.0
-seaborn >= 0.11.0
-scikit-learn >= 1.0.0
-```
-
 ## Installation
 
 1. Clone the repository:
@@ -166,6 +154,13 @@ cd machine-learning-regression-models
 ```bash
 pip install -r requirements.txt
 ```
+
+3. Download the datasets and place them in the `input/` directory:
+   - linear_regression_dataset.csv
+   - multiple_linear_regression_dataset.csv
+   - polynomialregression.csv
+   - decisiontreeregressiondataset.csv
+   - randomforestregressiondataset.csv
 
 ## Usage
 
