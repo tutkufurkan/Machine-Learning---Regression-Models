@@ -453,8 +453,11 @@ Special thanks to:
 If you have questions or suggestions:
 - Open an issue in this repository
 - Connect on [Kaggle](https://www.kaggle.com/dandrandandran2093)
+- Visit my website: [tutkufurkan.com](https://www.tutkufurkan.com/)
 - Star this repository if you found it helpful!
 
 ---
 
 **Happy Learning! 📚✨**
+
+🌐 More projects at [tutkufurkan.com](https://www.tutkufurkan.com/)
