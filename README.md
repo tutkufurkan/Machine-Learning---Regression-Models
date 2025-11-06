@@ -434,7 +434,7 @@ This project is licensed under the Apache License 2.0 - see the LICENSE file for
 - [Model Evaluation Metrics](https://scikit-learn.org/stable/modules/model_evaluation.html)
 
 ### Related Project
-- 📈 **Machine Learning Classification Models** - [[Kaggle]](https://www.kaggle.com/code/dandrandandran2093/machine-learning-classifications-models) [[GitHub]](https://github.com/sekertutku/Machine-Learning---Classifications-Models)
+- 🎯 **Machine Learning Classification Models** - [[Kaggle]](https://www.kaggle.com/code/dandrandandran2093/machine-learning-classifications-models) [[GitHub]](https://github.com/sekertutku/Machine-Learning---Classifications-Models)
 
 ## Acknowledgments
 
