@@ -205,3 +205,41 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ========================================
+# Project-specific additions
+# ========================================
+
+# Data files (input klasörü için)
+*.csv
+*.xlsx
+*.pkl
+*.h5
+*.joblib
+*.parquet
+
+# Model files
+*.model
+*.sav
+
+# Kaggle API key (CRITICAL!)
+kaggle.json
+.kaggle/
+
+# Large compressed files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# OS-specific
+.DS_Store
+Thumbs.db
+.DS_Store?
+._*
+Thumbs.db:encryptable
+
+# Temporary files
+*.tmp
+*.bak
+*~
