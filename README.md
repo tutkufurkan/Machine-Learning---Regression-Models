@@ -433,8 +433,15 @@ This project is licensed under the Apache License 2.0 - see the LICENSE file for
 - [Random Forest](https://scikit-learn.org/stable/modules/ensemble.html#forests-of-randomized-trees)
 - [Model Evaluation Metrics](https://scikit-learn.org/stable/modules/model_evaluation.html)
 
-### Related Project
-- 🎯 **Machine Learning Classification Models** - [[Kaggle]](https://www.kaggle.com/code/dandrandandran2093/machine-learning-classifications-models) [[GitHub]](https://github.com/sekertutku/Machine-Learning---Classifications-Models)
+**My Machine Learning Series:**
+
+- 📈 **Regression Models** - [[Kaggle]](https://www.kaggle.com/code/dandrandandran2093/machine-learning-regression-models) [[GitHub]](https://github.com/tutkufurkan/Machine-Learning---Regression-Models) *(Current)*
+
+- 🚀 **Advanced Topics** - [[Kaggle]](https://www.kaggle.com/code/dandrandandran2093/machine-learning-advanced-topics) [[GitHub]](https://github.com/tutkufurkan/Machine-Learning---Advanced-Topics)
+
+- 🔍 **Clustering Models** - [[Kaggle]](https://www.kaggle.com/code/dandrandandran2093/machine-learning-clustering-models) [[GitHub]](https://github.com/tutkufurkan/Machine-Learning---Clustering-Models)
+
+- 🎯 **Classification Models** - [[Kaggle]](https://www.kaggle.com/code/dandrandandran2093/machine-learning-classifications-models) [[GitHub]](https://github.com/tutkufurkan/Machine-Learning---Classifications-Models)
 
 ## Acknowledgments
 
